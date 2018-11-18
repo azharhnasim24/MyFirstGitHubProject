@@ -15,11 +15,14 @@
         <activity android:name=".MainActivity02" />
         <activity android:name=".MainActivity03" />
         <activity android:name=".MainActivity04" />
-        <activity android:name=".ActivityLifeCycle"></activity>
-        <activity android:name=".OptionMenuIntegrate">
+        <activity android:name=".ActivityLifeCycle" />
+        <activity android:name=".OptionMenuIntegrate" />
+        <activity android:name=".BackPress" />
+        <activity android:name=".Alert"></activity>
+        <activity android:name=".TimePickerTest">
 
         </activity>
-        <activity android:name=".BackPress">
+        <activity android:name=".ListViewTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

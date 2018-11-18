@@ -28,21 +28,21 @@ public class OptionMenuIntegrate extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if(id == R.id.messi)
-        {
-            relativeLayout.setBackgroundResource(R.drawable.lm10);
-        }
-        if(id == R.id.ronaldo)
-        {
-            relativeLayout.setBackgroundResource(R.drawable.cr7);
-        }
-        if(id == R.id.modric)
-        {
-            relativeLayout.setBackgroundResource(R.drawable.modric);
-        }
-        if (id == R.id.logout)
-        {
-            Toast.makeText(this, "Logging Out...", Toast.LENGTH_SHORT).show();
-        }
-        return super.onOptionsItemSelected(item);
+    {
+        relativeLayout.setBackgroundResource(R.drawable.lm10);
     }
+        if(id == R.id.ronaldo)
+    {
+        relativeLayout.setBackgroundResource(R.drawable.cr7);
+    }
+        if(id == R.id.modric)
+    {
+        relativeLayout.setBackgroundResource(R.drawable.modric);
+    }
+        if (id == R.id.logout)
+    {
+        Toast.makeText(this, "Logging Out...", Toast.LENGTH_SHORT).show();
+    }
+        return super.onOptionsItemSelected(item);
+}
 }
